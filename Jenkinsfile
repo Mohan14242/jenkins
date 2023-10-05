@@ -20,5 +20,11 @@ pipeline{
             }
         }
     }
+
+    post{
+        always {
+            echo " i willalways run  wheather job fails or pass i dont matter"
+        }
+    }
     
 }
