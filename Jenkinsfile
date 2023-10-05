@@ -1,5 +1,5 @@
 pipeline{
-    agent { node { label 'labelNaame' } }
+    agent { node { label 'centos' } }
 
     stages{
         stage('Build') {
