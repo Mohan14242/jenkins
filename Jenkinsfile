@@ -21,6 +21,10 @@ pipeline{
                 
             }
         }
+        stage('nothing')
+            steps {
+                echo "this is for just testing the web hook"
+            }
     }
 
     post{
