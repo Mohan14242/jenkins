@@ -25,6 +25,12 @@ pipeline{
         always {
             echo " i willalways run  wheather job fails or pass i dont matter"
         }
+        sucess{
+            echo "i will run onyl when the pipeline is success"
+        }
+        failure{
+            echo " i will run only when the  pipeline fails"
+        }
     }
     
 }
