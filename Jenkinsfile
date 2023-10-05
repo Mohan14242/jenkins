@@ -5,6 +5,7 @@ pipeline{
         stage('Build') {
             steps {
                 echo "building"
+                sh "pwd"
             }
         }
        
@@ -17,7 +18,7 @@ pipeline{
         stage('deploy') {
             steps {
                 echo "deploying the succesful production to the test"
-                error " we dont have any production deployment"
+                
             }
         }
     }
